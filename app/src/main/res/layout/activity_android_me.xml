@@ -33,9 +33,25 @@
             android:id="@+id/head_Container"
             android:layout_width="match_parent"
             android:layout_height="180dp"
+            android:scaleType="centerInside"
+            />
+
+
+        <FrameLayout
+            android:id="@+id/body_Container"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="10dp"/>
+
+        <FrameLayout
+            android:id="@+id/Tail_Container"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+
             android:scaleType="centerInside"/>
 
-
-    </LinearLayout>
+        </LinearLayout>
 
 </ScrollView>
